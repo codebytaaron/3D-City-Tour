@@ -11,19 +11,5 @@ A cinematic, interactive flight through central London, built with MapLibre GL J
 - Responsive controls for desktop, tablet, and mobile
 - No map API key required
 
-## Run locally
-
-```bash
-pnpm install
-pnpm dev
-```
-
-Open `http://localhost:3000` in a browser. An internet connection is required to load OpenFreeMap vector tiles.
-
-## Production build
-
-```bash
-pnpm build
-```
-
+  
 Map data and rendering are provided by [OpenFreeMap](https://openfreemap.org) and [MapLibre GL JS](https://maplibre.org/maplibre-gl-js/docs/).
