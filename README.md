@@ -1,15 +1,14 @@
 # London / 3D
 
-A cinematic, interactive flight through central London, built with MapLibre GL JS and OpenFreeMap.
+A 3D flight through central London in the browser. Extruded buildings, a guided tour of five districts, clickable landmarks and a day/night toggle. No map API key needed.
 
-## Highlights
+Built with Next.js, MapLibre GL JS and OpenFreeMap map data.
 
-- 3D-extruded buildings across central London
-- Guided fly-through of five landmark districts
-- Clickable landmark route and map markers
-- Day and night atmosphere controls
-- Responsive controls for desktop, tablet, and mobile
-- No map API key required
+```bash
+npm install
+npm run dev
+```
 
-  
-Map data and rendering are provided by [OpenFreeMap](https://openfreemap.org) and [MapLibre GL JS](https://maplibre.org/maplibre-gl-js/docs/).
+## License
+
+© 2026 Teddy Aaron. All rights reserved. Public to view only. Don't copy, reuse, deploy or redistribute any of it without written permission. See [LICENSE](LICENSE).
